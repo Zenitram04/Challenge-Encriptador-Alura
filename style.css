@@ -1,7 +1,80 @@
-
+* {  /* esto es para resetear los estilos que pone por defecto el navegador */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Poppins", sans-serif;
-  background: #6c7ebe;
+  background: #F3F5FC;;
   margin: 0px;
   padding: 0px;
+  width: 1440px;
+  height: 1024px;
 }
+/* logo alura */
+.logo{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+/* seccion blanca de la izquierda */
+.seccion-izquierda{
+  background-color: #F3F5FC;
+  width: 70%;
+  height: 90%;
+  float: left;
+  border-radius: 18px;
+  display: block;
+}
+.text{
+  margin-top: 15%;
+  margin-left: 15%;
+  font-size: 32px;
+  color: #0A3871;
+  font-family: 'Inter';
+  border: none;
+  background-color: #F3F5FC;
+}
+/* seccion blanca de la derecha */
+.seccion-derecha{
+  background-color: #FFFFFF;
+  width: 30%;
+  height: 100%;
+  float: right;
+  border-radius: 18px;
+  display: block;
+  text-align: center;
+}
+.aviso{
+  font-family: 'Inter';
+  font-size: 24px;
+  color: #343A40;
+  ;
+}
+.text2{
+  width: 100%;
+  border: none;
+  margin-top: 15%;
+}
+.btn-copiar{
+  width: 30%;
+  padding:16px 30px;
+  border-radius: 18px;
+  margin-top: 5%;
+}
+/* seccion de botones */
+.seccion-botones{
+  width: 70%;
+  height: 10%;
+  display: block;
+}
+.icono{
+  margin-left: 5%;
+}
+.btn-encriptar, .btn-desencriptar{
+  width: 30%;
+  padding:16px 30px;
+  border-radius: 18px;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+

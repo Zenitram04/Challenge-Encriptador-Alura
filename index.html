@@ -1,40 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge Encriptador Alura</title> 
     <link rel="stylesheet" href="style.css">
-   
+    <title>Challenge Encriptador Alura</title> 
 </head>
 <body>
-    <div>
-
+    <div class="seccion-izquierda"><!--div incluye donde se escribe el texto  a encriptar o Desencriptar -->
+        <figure>
+            <img class="logo" src="Imagenes/logo-alura.png" alt="Logo Alura Latam"/>
+        </figure>
         <div>
-          <img src="Imagenes/logo-alura.png" alt="Logo Alura Latam"/>
-        </div>
-
-             <!-- div incluye donde se escribe el texto  a encriptar o Desencriptar -->
-         <div>
-            <input type="text" placeholder="Ingrese el texto aquí">
-        </div>
-        
-             <!--div incluye muñeco de Alura y mensaje  y botón copiar-->
-        <div>
-            <img src="Imagenes/muneco-alura.png" alt="Imagen muñeco de Alura Latam">
-            <h3>Ningún mensaje fue encontrado</h3>
-            <textarea name="" id="" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar.</textarea> <!--Cuadro donde se ingresa el mensaje a encriptar o Desencriptar -->
-            <button>Copiar</button>
-        </div>  
-        
-            <!--div incluye mensaje de escritura y botones encriptar y Desencriptar -->
-        <div>
-            <p>Solo minúsculas y sin acentos</p>
-            <button>Encriptar</button>
-            <button>Desencriptar</button>
-        </div>
-        
+            <input class="text" type="text" placeholder="Ingrese el texto aquí">
+        </div> 
+    </div>
+    <div class="seccion-derecha"><!--div incluye muñeco de Alura, mensaje  y botón copiar-->
+        <img src="Imagenes/muneco-alura.png" alt="Imagen muñeco de Alura Latam">
+        <p class="aviso">Ningún mensaje fue encontrado</p>
+        <!--Cuadro donde se ingresa el mensaje a encriptar o Desencriptar -->
+        <textarea name="" class="text2" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea> 
+        <button class="btn-copiar">Copiar</button>
+    </div>
+    <div class="seccion-botones"><!--div incluye mensaje de escritura y botones encriptar y Desencriptar -->
+        <p class="advertencia"><img class="icono" src="Imagenes/Vector.png" alt="icono alerta importante"> Solo letras minúsculas y sin acentos</p>
+        <button class="btn-encriptar">Encriptar</button>
+        <button class="btn-desencriptar">Desencriptar</button>
     </div>
      </body>
 </html>
